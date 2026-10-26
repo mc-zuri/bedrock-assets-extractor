@@ -94,10 +94,11 @@ The generator of a state is chosen by the tessellator shape the client reports f
   nothing, as in the client. A piston's `facing_direction` runs 0 down, 1 up, 2 south, 3 north, 4 east, 5 west;
 - fences: the client's fence tessellator boxes (`data/tessellator_shapes.json`); walls: post and arms from their
   states; panes and bars: a sheet to each connected side, across both axes when unconnected;
-- chests, beds, heads, signs, hanging signs, banners, decorated pots and copper golem statues, which the client draws
-  with block entity renderers: beds with the packs' `geometry.bed` laid flat across their two halves, heads with the
-  geometry and texture the `minecraft:skull` client entity gives their type, statues with `geometry.copper_golem`,
-  the others as their renderers lay them out (the classic chest's base, lid and latch; the sign's board at 2/3, on its
+- chests, shulker boxes, beds, heads, signs, hanging signs, banners, decorated pots and copper golem statues, which the
+  client draws with block entity renderers: beds with the packs' `geometry.bed` laid flat across their two halves,
+  heads with the geometry and texture the `minecraft:skull` client entity gives their type, statues with
+  `geometry.copper_golem`, the others as their renderers lay them out (the classic chest's base, lid and latch; the
+  shulker box's base and lid, the shulker's shell on its colour's sheet; the sign's board at 2/3, on its
   stick or against its wall; the hanging sign's board on its chains, under its plank on a wall; the banner's flag and
   crossbar at 2/3, on its pole or hanging from a wall; the pot's body, neck and rim), all on their entity texture
   sheets (copied into `blocks/` as `entity__chest__normal`, `entity__bed__red`...);
@@ -154,6 +155,8 @@ of the block's block entity, which prismarine-viewer gives a block as properties
 | the `skull` block (before 1.21.40) | `block_entity.SkullType` | the head of that type |
 | chests (but ender chests) | `block_entity.pair` | `none`, or the side the other half of a double chest is on (its block entity's `pairx` and `pairz`): this block's half of the double chest, on the double sheet |
 | chests | `block_entity.lid` | the lid and latch turned up about the hinge, from 0 (shut) to 9 (a quarter turn): how far a block event has opened it, which prismarine-viewer animates |
+| shulker boxes | `block_entity.facing` | turned to its ShulkerBox block entity's facing (0 down, 1 up, 2 north, 3 south, 4 west, 5 east; up without one) |
+| shulker boxes | `block_entity.lid` | the lid risen half a block and turned three quarters round at 9, from 0 (shut): how far a block event has opened it, which prismarine-viewer animates |
 | pistons | `block_entity.Progress` | the arm out by 0, 0.5 or 1 block: its PistonArm block entity's progress |
 
 The block entity's default comes first (a red bed, a skeleton skull facing south), the variant a block without a

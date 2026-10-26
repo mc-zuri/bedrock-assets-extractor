@@ -165,6 +165,33 @@ describe('doors and chests', () => {
     // (a side that is not across its facing pairs it with nothing)
     assert.strictEqual(chest({ 'block_entity.pair': 'north' }).textures.chest, 'entity/chest/normal')
   })
+
+  const shulkerCtx = ctx('ShulkerBox', { geometry: () => null, ref: p => /shulker\/shulker_[a-z_]+$/.test(p) ? p.replace(/^textures\//, '') : null })
+  const shulker = (name, props = {}) => generate({ name, props, collision: [[0, 0, 0, 1, 1, 1]] }, shulkerCtx)
+
+  it('draws a shulker box as the shulker\'s shell on its colour\'s sheet, its lid rising and turning by the lid step', () => {
+    assert.strictEqual(shulker('purple_shulker_box').textures.shulker, 'entity/shulker/shulker_purple')
+    assert.strictEqual(shulker('undyed_shulker_box').textures.shulker, 'entity/shulker/shulker_undyed')
+    assert.strictEqual(shulker('light_gray_shulker_box').textures.shulker, 'entity/shulker/shulker_silver')
+    // (before 1.20.80 one block, its colour a state)
+    assert.strictEqual(shulker('shulker_box', { color: 'silver' }).textures.shulker, 'entity/shulker/shulker_silver')
+    const shut = shulker('red_shulker_box')
+    assert.deepStrictEqual(bounds(shut.elements), [[0, 16], [0, 16], [0, 16]])
+    assert.strictEqual(shut.elements[1].rotation, undefined)
+    const open = shulker('red_shulker_box', { 'block_entity.lid': '9' })
+    assert.deepStrictEqual([open.elements[1].from[1], open.elements[1].to[1]], [12, 24])
+    assert.deepStrictEqual(open.elements[1].rotation, { origin: [8, 8, 8], axis: 'y', angle: 270 })
+    assert.strictEqual(open.elements[0].rotation, undefined)
+  })
+
+  it('turns a shulker box to its block entity\'s facing, up when it has none', () => {
+    const turn = facing => { const m = shulker('red_shulker_box', facing === undefined ? {} : { 'block_entity.facing': String(facing) }); return [m.x ?? 0, m.y ?? 0] }
+    assert.deepStrictEqual(turn(), [0, 0])
+    assert.deepStrictEqual(turn(1), [0, 0])
+    assert.deepStrictEqual(turn(0), [180, 0])
+    for (const facing of [2, 3, 4, 5]) assert.strictEqual(turn(facing)[0], 90)
+    assert.notDeepStrictEqual(turn(2), turn(3))
+  })
 })
 
 describe('shapes the client lays out itself', () => {
