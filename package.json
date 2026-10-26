@@ -1,0 +1,45 @@
+{
+  "name": "bedrock-assets-extractor",
+  "version": "0.1.0",
+  "description": "Extract Minecraft Bedrock Edition block and item assets into minecraft-assets, in the format of its Java versions",
+  "main": "index.js",
+  "bin": {
+    "bedrock-assets-extractor": "bin/extract.js"
+  },
+  "scripts": {
+    "extract": "node bin/extract.js",
+    "test": "mocha --reporter spec --exit",
+    "lint": "standard",
+    "fix": "standard --fix",
+    "pretest": "npm run lint"
+  },
+  "keywords": [
+    "minecraft",
+    "bedrock",
+    "assets",
+    "prismarine"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "minecraft-data": "^3.117.0",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "minecraft-assets": "^1.19.0",
+    "mocha": "^11.0.1",
+    "standard": "^17.1.2"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "data",
+    "index.js",
+    "NOTICE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mc-zuri/bedrock-assets-extractor.git"
+  }
+}

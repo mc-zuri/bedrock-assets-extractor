@@ -1,0 +1,2715 @@
+{
+ "_meta": {
+  "about": "block name -> the property order its legacy data value packs (each property in as many bits as its values need), and the exact values that order does not give; blocks whose data value is their permutation index in every version are left out"
+ },
+ "blocks": {
+  "acacia_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "acacia_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "activator_rail": {
+   "order": [
+    "rail_data_bit",
+    "rail_direction"
+   ],
+   "values": {
+    "rail_data_bit": [
+     "0",
+     "1"
+    ],
+    "rail_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "andesite_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "bamboo": {
+   "exact": {
+    "age_bit=0,bamboo_leaf_size=large_leaves,bamboo_stalk_thickness=thick": 5,
+    "age_bit=0,bamboo_leaf_size=large_leaves,bamboo_stalk_thickness=thin": 4,
+    "age_bit=0,bamboo_leaf_size=no_leaves,bamboo_stalk_thickness=thick": 1,
+    "age_bit=0,bamboo_leaf_size=no_leaves,bamboo_stalk_thickness=thin": 0,
+    "age_bit=0,bamboo_leaf_size=small_leaves,bamboo_stalk_thickness=thick": 3,
+    "age_bit=0,bamboo_leaf_size=small_leaves,bamboo_stalk_thickness=thin": 2,
+    "age_bit=1,bamboo_leaf_size=large_leaves,bamboo_stalk_thickness=thick": 13,
+    "age_bit=1,bamboo_leaf_size=large_leaves,bamboo_stalk_thickness=thin": 12,
+    "age_bit=1,bamboo_leaf_size=no_leaves,bamboo_stalk_thickness=thick": 9,
+    "age_bit=1,bamboo_leaf_size=no_leaves,bamboo_stalk_thickness=thin": 8,
+    "age_bit=1,bamboo_leaf_size=small_leaves,bamboo_stalk_thickness=thick": 11,
+    "age_bit=1,bamboo_leaf_size=small_leaves,bamboo_stalk_thickness=thin": 10
+   }
+  },
+  "bamboo_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "bamboo_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "barrel": {
+   "order": [
+    "open_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "open_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "birch_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "birch_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "blackstone_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "border_block": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "calibrated_sculk_sensor": {
+   "exact": {
+    "minecraft:cardinal_direction=east,sculk_sensor_phase=0": 12,
+    "minecraft:cardinal_direction=east,sculk_sensor_phase=1": 13,
+    "minecraft:cardinal_direction=east,sculk_sensor_phase=2": 14,
+    "minecraft:cardinal_direction=north,sculk_sensor_phase=0": 8,
+    "minecraft:cardinal_direction=north,sculk_sensor_phase=1": 9,
+    "minecraft:cardinal_direction=north,sculk_sensor_phase=2": 10,
+    "minecraft:cardinal_direction=south,sculk_sensor_phase=0": 0,
+    "minecraft:cardinal_direction=south,sculk_sensor_phase=1": 1,
+    "minecraft:cardinal_direction=south,sculk_sensor_phase=2": 2,
+    "minecraft:cardinal_direction=west,sculk_sensor_phase=0": 4,
+    "minecraft:cardinal_direction=west,sculk_sensor_phase=1": 5,
+    "minecraft:cardinal_direction=west,sculk_sensor_phase=2": 6
+   }
+  },
+  "cauldron": {
+   "exact": {
+    "cauldron_liquid=lava,fill_level=0": 8,
+    "cauldron_liquid=lava,fill_level=1": 9,
+    "cauldron_liquid=lava,fill_level=2": 10,
+    "cauldron_liquid=lava,fill_level=3": 11,
+    "cauldron_liquid=lava,fill_level=4": 12,
+    "cauldron_liquid=lava,fill_level=5": 13,
+    "cauldron_liquid=lava,fill_level=6": 14,
+    "cauldron_liquid=powder_snow,fill_level=0": 16,
+    "cauldron_liquid=powder_snow,fill_level=1": 17,
+    "cauldron_liquid=powder_snow,fill_level=2": 18,
+    "cauldron_liquid=powder_snow,fill_level=3": 19,
+    "cauldron_liquid=powder_snow,fill_level=4": 20,
+    "cauldron_liquid=powder_snow,fill_level=5": 21,
+    "cauldron_liquid=powder_snow,fill_level=6": 22,
+    "cauldron_liquid=water,fill_level=0": 0,
+    "cauldron_liquid=water,fill_level=1": 1,
+    "cauldron_liquid=water,fill_level=2": 2,
+    "cauldron_liquid=water,fill_level=3": 3,
+    "cauldron_liquid=water,fill_level=4": 4,
+    "cauldron_liquid=water,fill_level=5": 5,
+    "cauldron_liquid=water,fill_level=6": 6
+   }
+  },
+  "chain_command_block": {
+   "order": [
+    "conditional_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "conditional_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "cherry_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "cherry_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "cinnabar_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "cinnabar_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "cobbled_deepslate_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "cobblestone_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "command_block": {
+   "order": [
+    "conditional_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "conditional_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "crafter": {
+   "exact": {
+    "crafting=0,orientation=down_east,triggered_bit=0": 0,
+    "crafting=0,orientation=down_east,triggered_bit=1": 16,
+    "crafting=0,orientation=down_north,triggered_bit=0": 1,
+    "crafting=0,orientation=down_north,triggered_bit=1": 17,
+    "crafting=0,orientation=down_south,triggered_bit=0": 2,
+    "crafting=0,orientation=down_south,triggered_bit=1": 18,
+    "crafting=0,orientation=down_west,triggered_bit=0": 3,
+    "crafting=0,orientation=down_west,triggered_bit=1": 19,
+    "crafting=0,orientation=east_up,triggered_bit=0": 9,
+    "crafting=0,orientation=east_up,triggered_bit=1": 25,
+    "crafting=0,orientation=north_up,triggered_bit=0": 10,
+    "crafting=0,orientation=north_up,triggered_bit=1": 26,
+    "crafting=0,orientation=south_up,triggered_bit=0": 11,
+    "crafting=0,orientation=south_up,triggered_bit=1": 27,
+    "crafting=0,orientation=up_east,triggered_bit=0": 4,
+    "crafting=0,orientation=up_east,triggered_bit=1": 20,
+    "crafting=0,orientation=up_north,triggered_bit=0": 5,
+    "crafting=0,orientation=up_north,triggered_bit=1": 21,
+    "crafting=0,orientation=up_south,triggered_bit=0": 6,
+    "crafting=0,orientation=up_south,triggered_bit=1": 22,
+    "crafting=0,orientation=up_west,triggered_bit=0": 7,
+    "crafting=0,orientation=up_west,triggered_bit=1": 23,
+    "crafting=0,orientation=west_up,triggered_bit=0": 8,
+    "crafting=0,orientation=west_up,triggered_bit=1": 24,
+    "crafting=1,orientation=down_east,triggered_bit=0": 32,
+    "crafting=1,orientation=down_east,triggered_bit=1": 48,
+    "crafting=1,orientation=down_north,triggered_bit=0": 33,
+    "crafting=1,orientation=down_north,triggered_bit=1": 49,
+    "crafting=1,orientation=down_south,triggered_bit=0": 34,
+    "crafting=1,orientation=down_south,triggered_bit=1": 50,
+    "crafting=1,orientation=down_west,triggered_bit=0": 35,
+    "crafting=1,orientation=down_west,triggered_bit=1": 51,
+    "crafting=1,orientation=east_up,triggered_bit=0": 41,
+    "crafting=1,orientation=east_up,triggered_bit=1": 57,
+    "crafting=1,orientation=north_up,triggered_bit=0": 42,
+    "crafting=1,orientation=north_up,triggered_bit=1": 58,
+    "crafting=1,orientation=south_up,triggered_bit=0": 43,
+    "crafting=1,orientation=south_up,triggered_bit=1": 59,
+    "crafting=1,orientation=up_east,triggered_bit=0": 36,
+    "crafting=1,orientation=up_east,triggered_bit=1": 52,
+    "crafting=1,orientation=up_north,triggered_bit=0": 37,
+    "crafting=1,orientation=up_north,triggered_bit=1": 53,
+    "crafting=1,orientation=up_south,triggered_bit=0": 38,
+    "crafting=1,orientation=up_south,triggered_bit=1": 54,
+    "crafting=1,orientation=up_west,triggered_bit=0": 39,
+    "crafting=1,orientation=up_west,triggered_bit=1": 55,
+    "crafting=1,orientation=west_up,triggered_bit=0": 40,
+    "crafting=1,orientation=west_up,triggered_bit=1": 56
+   }
+  },
+  "creaking_heart": {
+   "exact": {
+    "creaking_heart_state=awake,natural=0,pillar_axis=x": 9,
+    "creaking_heart_state=awake,natural=0,pillar_axis=y": 8,
+    "creaking_heart_state=awake,natural=0,pillar_axis=z": 10,
+    "creaking_heart_state=awake,natural=1,pillar_axis=x": 25,
+    "creaking_heart_state=awake,natural=1,pillar_axis=y": 24,
+    "creaking_heart_state=awake,natural=1,pillar_axis=z": 26,
+    "creaking_heart_state=dormant,natural=0,pillar_axis=x": 5,
+    "creaking_heart_state=dormant,natural=0,pillar_axis=y": 4,
+    "creaking_heart_state=dormant,natural=0,pillar_axis=z": 6,
+    "creaking_heart_state=dormant,natural=1,pillar_axis=x": 21,
+    "creaking_heart_state=dormant,natural=1,pillar_axis=y": 20,
+    "creaking_heart_state=dormant,natural=1,pillar_axis=z": 22,
+    "creaking_heart_state=uprooted,natural=0,pillar_axis=x": 1,
+    "creaking_heart_state=uprooted,natural=0,pillar_axis=y": 0,
+    "creaking_heart_state=uprooted,natural=0,pillar_axis=z": 2,
+    "creaking_heart_state=uprooted,natural=1,pillar_axis=x": 17,
+    "creaking_heart_state=uprooted,natural=1,pillar_axis=y": 16,
+    "creaking_heart_state=uprooted,natural=1,pillar_axis=z": 18
+   }
+  },
+  "crimson_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "crimson_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "dark_oak_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "dark_oak_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "deepslate_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "deepslate_tile_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "detector_rail": {
+   "order": [
+    "rail_data_bit",
+    "rail_direction"
+   ],
+   "values": {
+    "rail_data_bit": [
+     "0",
+     "1"
+    ],
+    "rail_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "diorite_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "dispenser": {
+   "order": [
+    "triggered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "triggered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "dropper": {
+   "order": [
+    "triggered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "triggered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "end_stone_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "exposed_lightning_rod": {
+   "order": [
+    "powered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "powered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "frame": {
+   "order": [
+    "item_frame_photo_bit",
+    "item_frame_map_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "item_frame_map_bit": [
+     "0",
+     "1"
+    ],
+    "item_frame_photo_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "glow_frame": {
+   "order": [
+    "item_frame_photo_bit",
+    "item_frame_map_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "item_frame_map_bit": [
+     "0",
+     "1"
+    ],
+    "item_frame_photo_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "golden_rail": {
+   "order": [
+    "rail_data_bit",
+    "rail_direction"
+   ],
+   "values": {
+    "rail_data_bit": [
+     "0",
+     "1"
+    ],
+    "rail_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "granite_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "hopper": {
+   "order": [
+    "toggle_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "toggle_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "jigsaw": {
+   "order": [
+    "rotation",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rotation": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ]
+   }
+  },
+  "jungle_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "jungle_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "lightning_rod": {
+   "order": [
+    "powered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "powered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "mangrove_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "mangrove_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "mangrove_propagule": {
+   "order": [
+    "hanging",
+    "propagule_stage"
+   ],
+   "values": {
+    "hanging": [
+     "0",
+     "1"
+    ],
+    "propagule_stage": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   }
+  },
+  "mossy_cobblestone_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "mossy_stone_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "mud_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "nether_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "oak_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "observer": {
+   "exact": {
+    "minecraft:facing_direction=down,powered_bit=0": 0,
+    "minecraft:facing_direction=down,powered_bit=1": 8,
+    "minecraft:facing_direction=east,powered_bit=0": 5,
+    "minecraft:facing_direction=east,powered_bit=1": 13,
+    "minecraft:facing_direction=north,powered_bit=0": 2,
+    "minecraft:facing_direction=north,powered_bit=1": 10,
+    "minecraft:facing_direction=south,powered_bit=0": 3,
+    "minecraft:facing_direction=south,powered_bit=1": 11,
+    "minecraft:facing_direction=up,powered_bit=0": 1,
+    "minecraft:facing_direction=up,powered_bit=1": 9,
+    "minecraft:facing_direction=west,powered_bit=0": 4,
+    "minecraft:facing_direction=west,powered_bit=1": 12
+   }
+  },
+  "oxidized_lightning_rod": {
+   "order": [
+    "powered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "powered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "pale_moss_carpet": {
+   "order": [
+    "pale_moss_carpet_side_west",
+    "pale_moss_carpet_side_south",
+    "pale_moss_carpet_side_east",
+    "pale_moss_carpet_side_north",
+    "upper_block_bit"
+   ],
+   "values": {
+    "pale_moss_carpet_side_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "pale_moss_carpet_side_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "pale_moss_carpet_side_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "pale_moss_carpet_side_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "upper_block_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "pale_oak_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "pale_oak_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "pointed_dripstone": {
+   "exact": {
+    "dripstone_thickness=base,hanging=0": 3,
+    "dripstone_thickness=base,hanging=1": 11,
+    "dripstone_thickness=frustum,hanging=0": 1,
+    "dripstone_thickness=frustum,hanging=1": 9,
+    "dripstone_thickness=merge,hanging=0": 4,
+    "dripstone_thickness=merge,hanging=1": 12,
+    "dripstone_thickness=middle,hanging=0": 2,
+    "dripstone_thickness=middle,hanging=1": 10,
+    "dripstone_thickness=tip,hanging=0": 0,
+    "dripstone_thickness=tip,hanging=1": 8
+   }
+  },
+  "polished_blackstone_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "polished_blackstone_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "polished_blackstone_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "polished_cinnabar_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "polished_deepslate_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "polished_sulfur_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "polished_tuff_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "poplar_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "poplar_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "prismarine_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "red_nether_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "red_sandstone_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "repeating_command_block": {
+   "order": [
+    "conditional_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "conditional_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "resin_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "sandstone_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "spruce_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "spruce_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "stone_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "stone_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "sulfur_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "sulfur_spike": {
+   "exact": {
+    "dripstone_thickness=base,hanging=0": 3,
+    "dripstone_thickness=base,hanging=1": 11,
+    "dripstone_thickness=frustum,hanging=0": 1,
+    "dripstone_thickness=frustum,hanging=1": 9,
+    "dripstone_thickness=merge,hanging=0": 4,
+    "dripstone_thickness=merge,hanging=1": 12,
+    "dripstone_thickness=middle,hanging=0": 2,
+    "dripstone_thickness=middle,hanging=1": 10,
+    "dripstone_thickness=tip,hanging=0": 0,
+    "dripstone_thickness=tip,hanging=1": 8
+   }
+  },
+  "sulfur_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "trial_spawner": {
+   "order": [
+    "ominous",
+    "trial_spawner_state"
+   ],
+   "values": {
+    "ominous": [
+     "0",
+     "1"
+    ],
+    "trial_spawner_state": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "tuff_brick_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "tuff_wall": {
+   "order": [
+    "wall_connection_type_west",
+    "wall_connection_type_south",
+    "wall_connection_type_east",
+    "wall_connection_type_north",
+    "wall_post_bit"
+   ],
+   "values": {
+    "wall_connection_type_east": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_north": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_south": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_connection_type_west": [
+     "none",
+     "short",
+     "tall"
+    ],
+    "wall_post_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "warped_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  },
+  "warped_hanging_sign": {
+   "order": [
+    "attached_bit",
+    "hanging",
+    "ground_sign_direction",
+    "facing_direction"
+   ],
+   "values": {
+    "attached_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "ground_sign_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "hanging": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "waxed_exposed_lightning_rod": {
+   "order": [
+    "powered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "powered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "waxed_lightning_rod": {
+   "order": [
+    "powered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "powered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "waxed_oxidized_lightning_rod": {
+   "order": [
+    "powered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "powered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "waxed_weathered_lightning_rod": {
+   "order": [
+    "powered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "powered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "weathered_lightning_rod": {
+   "order": [
+    "powered_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "powered_bit": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  "wooden_button": {
+   "order": [
+    "button_pressed_bit",
+    "facing_direction"
+   ],
+   "values": {
+    "button_pressed_bit": [
+     "0",
+     "1"
+    ],
+    "facing_direction": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   }
+  }
+ }
+}

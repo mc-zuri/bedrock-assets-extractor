@@ -1,0 +1,2156 @@
+{
+ "_meta": {
+  "source": "materials/*.material of the packs of the installed clients",
+  "about": "per material a client entity names, per range of client versions, the material resolved through its parents (defines, states, blend factors); for the sources that have no materials; a version takes what the nearest client version at or below it has"
+ },
+ "versions": [
+  "0.14.0",
+  "0.15.0",
+  "1.0.0",
+  "1.16.201",
+  "1.16.210",
+  "1.16.220",
+  "1.17.0",
+  "1.17.10",
+  "1.17.30",
+  "1.17.40",
+  "1.18.0",
+  "1.18.12",
+  "1.18.30",
+  "1.19.0",
+  "1.19.10",
+  "1.19.20",
+  "1.19.21",
+  "1.19.30",
+  "1.19.40",
+  "1.19.50",
+  "1.19.60",
+  "1.19.62",
+  "1.19.63",
+  "1.19.70",
+  "1.19.80",
+  "1.20.0",
+  "1.20.10",
+  "1.20.15",
+  "1.20.30",
+  "1.20.40",
+  "1.20.50",
+  "1.20.60",
+  "1.20.72",
+  "1.20.80",
+  "1.21.0",
+  "1.21.1",
+  "1.21.2",
+  "1.21.20",
+  "1.21.30",
+  "1.21.43",
+  "1.21.50",
+  "1.21.60",
+  "1.21.70",
+  "1.21.80",
+  "1.21.90",
+  "1.21.93",
+  "1.21.101",
+  "1.21.113",
+  "1.21.120",
+  "1.21.124",
+  "1.21.132",
+  "1.26.0",
+  "1.26.3",
+  "1.26.10",
+  "1.26.13",
+  "1.26.20",
+  "1.26.30",
+  "1.26.40",
+  "1.26.45",
+  "1.26.50",
+  "1.26.51"
+ ],
+ "materials": {
+  "agent": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "allay": [
+   {
+    "versions": [
+     "1.18.30-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "armadillo": [
+   {
+    "versions": [
+     "1.20.60-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "armor_stand": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "arrow": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "axolotl": [
+   {
+    "versions": [
+     "1.17.0-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "axolotl_limbs": [
+   {
+    "versions": [
+     "1.17.0-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "balloon": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "bat": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "bat_v2": [
+   {
+    "versions": [
+     "1.20.50-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "bee": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "blaze_body": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "blaze_head": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "bogged": [
+   {
+    "versions": [
+     "1.20.72-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "bogged_clothes": [
+   {
+    "versions": [
+     "1.20.72-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "breeze": [
+   {
+    "versions": [
+     "1.20.60-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "breeze_eyes": [
+   {
+    "versions": [
+     "1.20.60-1.21.93"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+    "depthFunc": "Equal"
+   },
+   {
+    "versions": [
+     "1.21.101-1.21.113"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "Blending",
+     "DisableCulling"
+    ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+    "depthFunc": "Equal"
+   },
+   {
+    "versions": [
+     "1.21.120-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "depthFunc": "Equal"
+   }
+  ],
+  "breeze_wind": [
+   {
+    "versions": [
+     "1.20.60-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_UV_ANIM"
+    ],
+    "states": [
+     "Blending",
+     "DisableCulling",
+     "DisableDepthWrite"
+    ]
+   }
+  ],
+  "camel": [
+   {
+    "versions": [
+     "1.19.50-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "camera": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "cat": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableAlphaWrite",
+     "DisableCulling"
+    ]
+   }
+  ],
+  "charged_creeper": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_UV_ANIM"
+    ],
+    "states": [
+     "Blending",
+     "DisableCulling"
+    ],
+    "blendSrc": "One",
+    "blendDst": "One"
+   }
+  ],
+  "chicken": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "chicken_cold": [
+   {
+    "versions": [
+     "1.21.70-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "chicken_legs": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "cod": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "copper_golem": [
+   {
+    "versions": [
+     "1.21.101-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "copper_golem_eyes": [
+   {
+    "versions": [
+     "1.21.101-1.21.113"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "Blending",
+     "DisableCulling"
+    ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+    "depthFunc": "Equal"
+   },
+   {
+    "versions": [
+     "1.21.120-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "depthFunc": "Equal"
+   }
+  ],
+  "copper_golem_flower": [
+   {
+    "versions": [
+     "1.21.113-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "cow": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "cow_cold": [
+   {
+    "versions": [
+     "1.21.70-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "creaking": [
+   {
+    "versions": [
+     "1.21.50-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "creaking_eyes": [
+   {
+    "versions": [
+     "1.21.50-1.21.113"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "Blending",
+     "DisableCulling"
+    ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+    "depthFunc": "Equal"
+   },
+   {
+    "versions": [
+     "1.21.120-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "depthFunc": "Equal"
+   }
+  ],
+  "creeper": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "cushion": [
+   {
+    "versions": [
+     "1.26.40-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "dolphin": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "drowned": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "egg": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "ender_crystal": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "ender_dragon": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "ender_pearl": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "enderman": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "enderman_invisible": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_ONLY_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "endermite": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "entity_alphatest": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "entity_beam": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "COLOR_BASED",
+     "USE_OVERLAY",
+     "USE_UV_ANIM"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "entity_beam_additive": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "COLOR_BASED",
+     "NO_TEXTURE"
+    ],
+    "states": [
+     "Blending",
+     "DisableDepthWrite"
+    ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "One"
+   }
+  ],
+  "entity_dissolve_layer0.skinning": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "TINTED_ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableColorWrite"
+    ]
+   }
+  ],
+  "entity_dissolve_layer1.skinning": [
+   {
+    "versions": [
+     "1.16.201"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": [],
+    "depthFunc": "Equal"
+   },
+   {
+    "versions": [
+     "1.16.210-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST"
+    ],
+    "states": [],
+    "depthFunc": "Equal"
+   }
+  ],
+  "evoker": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "experience_orb": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "Blending",
+     "USE_MASK",
+     "USE_OVERLAY",
+     "USE_UV_ANIM"
+    ],
+    "states": []
+   }
+  ],
+  "eye_of_ender_signal": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "fang": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "fireball": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "fireworks_rocket": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "fishing_hook": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "fox": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "frog": [
+   {
+    "versions": [
+     "1.18.12-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "ghast": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "glow_squid": [
+   {
+    "versions": [
+     "1.17.0-1.26.51"
+    ],
+    "defines": [
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "goat": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "guardian": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "guardian_ghost": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "Blending"
+    ]
+   }
+  ],
+  "hoglin": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "horse": [
+   {
+    "versions": [
+     "1.16.201-1.17.0"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "COLOR_SECOND_TEXTURE",
+     "USE_MULTITEXTURE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   },
+   {
+    "versions": [
+     "1.17.10-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "horse_leather_armor": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "COLOR_SECOND_TEXTURE",
+     "USE_MULTITEXTURE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "husk": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "ice_bomb": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "iron_golem": [
+   {
+    "versions": [
+     "1.16.201-1.18.0"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   },
+   {
+    "versions": [
+     "1.18.12-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "depthFunc": "LessEqual"
+   }
+  ],
+  "leash_knot": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "lingering_potion_enchanted": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "GLINT",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "llama": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_MULTITEXTURE",
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "llama_spit": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "magma_cube": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "minecart": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "mooshroom": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "nautilus": [
+   {
+    "versions": [
+     "1.21.132-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "npc": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "ocelot": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "panda": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "parrot": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "phantom": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "phantom_invisible": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_ONLY_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "pig": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "pig_v3": [
+   {
+    "versions": [
+     "1.21.60-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "piglin": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "piglin_brute": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "pillager": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "player_animated": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY",
+     "USE_UV_ANIM"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "player_spectator": [
+   {
+    "versions": [
+     "1.19.10"
+    ],
+    "defines": [
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "Blending"
+    ]
+   },
+   {
+    "versions": [
+     "1.19.20-1.26.51"
+    ],
+    "defines": [
+     "USE_COLOR_MASK",
+     "USE_OVERLAY",
+     "USE_UV_ANIM"
+    ],
+    "states": [
+     "Blending"
+    ]
+   }
+  ],
+  "polar_bear": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "pufferfish": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "rabbit": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "ravager": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "salmon": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "sheep": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "shulker": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "shulker_bullet": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "silverfish": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "silverfish_layers": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "skeleton": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "slime": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "slime_outer": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "Blending"
+    ]
+   }
+  ],
+  "sniffer": [
+   {
+    "versions": [
+     "1.19.70-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "snow_golem": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "snow_golem_pumpkin": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "snowball": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "spider": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "spider_invisible": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_ONLY_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "splash_potion_enchanted": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "GLINT",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "squid": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "stray": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "stray_clothes": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "strider": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "sulfur_cube": [
+   {
+    "versions": [
+     "1.26.20-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "sulfur_cube_outer": [
+   {
+    "versions": [
+     "1.26.20-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "Blending"
+    ]
+   }
+  ],
+  "tadpole": [
+   {
+    "versions": [
+     "1.18.12-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "tropicalfish": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "MULTIPLICATIVE_TINT",
+     "MULTIPLICATIVE_TINT_COLOR",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "turtle": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_OVERLAY"
+    ],
+    "states": []
+   }
+  ],
+  "vex": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "villager": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "villager_v2": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "depthFunc": "LessEqual"
+   }
+  ],
+  "villager_v2_masked": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "MASKED_MULTITEXTURE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "depthFunc": "LessEqual"
+   }
+  ],
+  "vindicator": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "wandering_trader": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "warden": [
+   {
+    "versions": [
+     "1.18.30-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "warden_bioluminescent_layer": [
+   {
+    "versions": [
+     "1.18.30"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_EMISSIVE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "depthFunc": "Equal"
+   },
+   {
+    "versions": [
+     "1.19.0-1.21.93"
+    ],
+    "defines": [
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "Blending",
+     "DisableCulling"
+    ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+    "depthFunc": "Equal"
+   },
+   {
+    "versions": [
+     "1.21.101-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "Blending",
+     "DisableCulling"
+    ],
+    "blendSrc": "SourceAlpha",
+    "blendDst": "OneMinusSrcAlpha",
+    "depthFunc": "Equal"
+   }
+  ],
+  "witch": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "wither_boss": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "wither_boss_armor": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_UV_ANIM"
+    ],
+    "states": [
+     "Blending",
+     "DisableCulling"
+    ],
+    "blendSrc": "One",
+    "blendDst": "One"
+   }
+  ],
+  "wither_skull": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "wolf": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "wolf_armor": [
+   {
+    "versions": [
+     "1.20.60-1.20.72"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   },
+   {
+    "versions": [
+     "1.20.80-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "MULTIPLICATIVE_TINT",
+     "MULTIPLICATIVE_TINT_COLOR",
+     "USE_COLOR_MASK",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "xp_bottle": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "GLINT",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "zoglin": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "zombie": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "zombie_villager": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ]
+   }
+  ],
+  "zombie_villager_v2": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "depthFunc": "LessEqual"
+   }
+  ],
+  "zombie_villager_v2_masked": [
+   {
+    "versions": [
+     "1.16.201-1.26.51"
+    ],
+    "defines": [
+     "ALPHA_TEST",
+     "MASKED_MULTITEXTURE",
+     "USE_OVERLAY"
+    ],
+    "states": [
+     "DisableCulling"
+    ],
+    "depthFunc": "LessEqual"
+   }
+  ]
+ }
+}

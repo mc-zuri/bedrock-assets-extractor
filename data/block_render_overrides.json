@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "about": "Hand corrections to block_render.json"
+  },
+  "patterns": [
+    { "match": "leaves", "layer": "cutout" }
+  ],
+  "blocks": {
+    "cauldron": { "tint": "water" }
+  }
+}
