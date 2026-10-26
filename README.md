@@ -22,6 +22,12 @@ Everything it writes comes from Bedrock itself — no Bedrock state is mapped to
 It ships no Minecraft assets (see [NOTICE.md](NOTICE.md)): it reads them from an installed client or from Mojang's
 published packs, and writes them for you.
 
+Education Edition's chemistry is left out (`lib/chemistry.js`): the element blocks, the chemistry tables, chemical
+heat, hard glass, coloured and underwater torches, underwater TNT, compounds and the items made of them (bleach,
+medicine, super fertilizer, sparklers, glow sticks, balloons, ice bombs) and the balloon and ice bomb entities. Only
+the clients ship their textures: left out, they make no difference between a version built from a client and one
+built from Mojang's packs.
+
 ## Usage
 
 ```
